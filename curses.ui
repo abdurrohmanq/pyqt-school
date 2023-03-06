@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>10</y>
+      <width>611</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Mathematic</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mother language</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Art</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>music</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>phisic</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>chemistry</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>biology</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>history</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>geography</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>English language</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Russian Language</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>technology</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>IT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Algebra</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Geometry</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Literature</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Astronomia</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Islamic education</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Arabic Language</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>50</y>
+      <width>301</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>340</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>340</y>
+      <width>241</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>470</y>
+      <width>289</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="minimumSize">
+        <size>
+         <width>140</width>
+         <height>35</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>400</width>
+         <height>35</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI Semibold</family>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(33, 156, 232);
+color: rgb(255, 255, 255);
+border-radius:20px;</string>
+       </property>
+       <property name="text">
+        <string>Curs buy</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="minimumSize">
+        <size>
+         <width>140</width>
+         <height>35</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>400</width>
+         <height>35</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI Semibold</family>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(33, 156, 232);
+color: rgb(255, 255, 255);
+border-radius:20px;</string>
+       </property>
+       <property name="text">
+        <string>Back to menu</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
